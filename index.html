@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #444;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Jaosn Li is a programmer, developer and entrepreneur currently residing in London, On.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          
+            <div class="project-card">
+                <h3>Ultimate Chess</h3>
+                <p>A 1000-piece version of chess.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+          <div class="project-card">
+                <h3>Virtual Escape Room</h3>
+                <p>An html, css and js escape room using the webGL api.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+          <div class="project-card">
+                <h3>The Obsidian Collective</h3>
+                <p>An ARG developed with a friend of mine using html, css and js.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+          <div class="project-card">
+                <h3>The Animal Network</h3>
+                <p>An anti-corruption network.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+          <div class="project-card">
+                <h3>VirtualLand</h3>
+                <p>A digital micronation project.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+          <div class="project-card">
+                <h3>The 99 Souls</h3>
+                <p>A murder mystery book.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+          <div class="project-card">
+                <h3>Figures Of Civilization</h3>
+                <p>A Collect-them-all kingdom building video game.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: jasony7704@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Jason Li. All rights reserved.</p>
+    </footer>
+</body>
+</html>
